@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+  background-color: #1e1e1e;
+  color: white;
+  border: 1px solid #555;
+}
+
+.dark-mode button {
+  background-color: #1976d2 !important;
+}
